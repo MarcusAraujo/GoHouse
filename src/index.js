@@ -5,8 +5,7 @@ import Cabecalho from './components/cabecalho'
 
 ReactDOM.render(
   
-  <Cabecalho nome='marcus'></Cabecalho>,
-  
+  <Cabecalho ></Cabecalho>,
   document.getElementById('root')
 );
 

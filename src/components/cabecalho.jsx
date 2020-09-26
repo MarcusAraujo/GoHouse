@@ -1,11 +1,8 @@
 import React from 'react'
-import Lista from './lista'
-import lista from './lista'
+import Menu from './menu'
+import imageLogo from '../components/imagem'
+
 export default props => <div>
-    <h2>{props.nome}</h2>
-    <ul>
-        <Lista nome='joao' sobrenome='AST'></Lista>
-        <Lista nome='joao' sobrenome='AST'></Lista>
-        <Lista nome='joao' sobrenome='AST'></Lista>
-    </ul>
+    <img src={imageLogo} alt='Logo da aplicação' />
+    <Menu></Menu>
 </div>
