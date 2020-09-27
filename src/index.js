@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Cabecalho from './components/cabecalho'
+import Head from './components/head'
 
 ReactDOM.render(
   
-  <Cabecalho ></Cabecalho>,
+  <Head></Head>,
   document.getElementById('root')
 );
 
