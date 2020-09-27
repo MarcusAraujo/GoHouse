@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Head from './components/head';
-import Body from './components/body'
+import Html from './components/html';
+
 
 ReactDOM.render(
   
-  <Head></Head>,//<Body></Body>,
+  <Html></Html>,//<Body></Body>,
   document.getElementById('root')
 );
 
