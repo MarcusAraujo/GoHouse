@@ -6,7 +6,7 @@ import Html from './components/html';
 
 ReactDOM.render(
   
-  <Html></Html>,//<Body></Body>,
+  <Html></Html>,
   document.getElementById('root')
 );
 
