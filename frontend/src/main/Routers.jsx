@@ -1,12 +1,11 @@
 import React from 'react'
 import {Switch, Route, Redirect} from 'react-router'
-import UserCrud from '../components/user/UserCrud'
+import AdmCrud from '../components/user/AdmCrud'
 import CasaCrud from "../components/casas/CasasCrud"
 
 export default props =>
 <Switch>        
-        <Route exact path="/users" component={UserCrud}/>
-        <Route exact path="/casas" component={CasaCrud}/>
-        <Route exact path="/adm"/>
+        <Route exact path="/users" component={AdmCrud}/>
+        <Route exact path="/casas" component={CasaCrud}/>        
         <Redirect from="/" to="/casas"/>
 </Switch>

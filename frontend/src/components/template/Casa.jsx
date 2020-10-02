@@ -1,9 +1,19 @@
 import React, { Component } from 'react'
 import './Casa.css'
+import axios from 'axios'
 
+const base_url = "http://localhost:3001/users"
 
 
 export default class Casa extends Component {
+
+    constructor(props) {
+        super(props)
+    }
+
+    componentDidMount() {
+        
+    }
 
     render() {
         if (this.props.casa.id_locatario != null) {
@@ -23,6 +33,22 @@ export default class Casa extends Component {
     }
 
     alugar() {
-        alert("alugar")
+        // ERRO!!
+        const {casa} = this.props.casa
+        alert(typeof (casa))
+        axios["put"](base_url, casa)
+            .then(resp => {
+                console.table(resp.data)
+                this.setState({
+                    isLoaded: true,
+                    items: resp.data
+                });
+            }, (error) => {
+                alert("error")
+                this.setState({
+                    isLoaded: true,
+                    error
+                });
+            })
     }
 }
