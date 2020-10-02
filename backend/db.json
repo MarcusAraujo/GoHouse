@@ -1,0 +1,88 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Luandersonn",
+            "email": "luandersonn@email.com"
+        },
+        {
+            "id": 2,
+            "name": "Marcus",
+            "email": "marcus@email.com"
+        }
+    ],
+    "casas": [
+        {
+            "id": 1,
+            "image": "assets/casa1.jpg",
+            "address": "Rua número 1, número 183",
+            "id_locatario": "1"
+        },
+        {
+            "id": 2,
+            "image": "assets/casa2.jpg",
+            "address": "Rua número 2, número 138",
+            "id_locatario": null
+        },
+        {
+            "id": 3,
+            "image": "assets/casa3.jpg",
+            "address": "Rua número 3, número 651",
+            "id_locatario": null
+        },
+        {
+            "id": 4,
+            "image": "assets/casa4.jpg",
+            "address": "Rua número 4, número 341",
+            "id_locatario": null
+        },
+        {
+            "id": 5,
+            "image": "assets/casa5.jpg",
+            "address": "Rua número 5, número 384",
+            "id_locatario": null
+        },
+        {
+            "id": 6,
+            "image": "assets/casa6.jpg",
+            "address": "Rua número 6, número 74",
+            "id_locatario": null
+        },
+        {
+            "id": 7,
+            "image": "assets/casa7.jpg",
+            "address": "Rua número 7, número 599",
+            "id_locatario": null
+        },
+        {
+            "id": 8,
+            "image": "assets/casa8.jpg",
+            "address": "Rua número 8, número 673",
+            "id_locatario": null
+        },
+        {
+            "id": 9,
+            "image": "assets/casa9.jpg",
+            "address": "Rua número 9, número 95",
+            "id_locatario": null
+        },
+        {
+            "id": 10,
+            "image": "assets/casa10.jpg",
+            "address": "Rua número 10, número 812",
+            "id_locatario": null
+        },
+        {
+            "id": 11,
+            "image": "assets/casa11.jpg",
+            "address": "Rua número 11, número 581",
+            "id_locatario": null
+        },
+        {
+            "id": 12,
+            "image": "assets/casa12.jpg",
+            "address": "Rua número 12, número 777",
+            "id_locatario": null
+        }
+    ]
+}
